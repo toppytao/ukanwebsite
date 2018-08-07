@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>有看·有温度的电影社区</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="bootstrap-3.3.7-dist/js/jquery-1.11.1.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="icon" href="dog.ico"/>
+</head>
+<link rel="stylesheet" href="css/iconfont.css"/>
+<link rel="stylesheet" href=bootstrap-3.3.7-dist/css/style.css>
+<body>
+<!--头部开始-->
+<div class="container-fluid  header">
+    <div class="container">
+        <div class="col-md-3 logo">
+            <img src="images/logo.png" alt=""/>
+        </div>
+        <div class="col-md-5 search">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="搜索从这里开始...." aria-label="...">
+
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">搜索&nbsp<span class="caret"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="#">电影</a></li>
+                        <li><a href="#">电视</a></li>
+                        <li><a href="#">专栏</a></li>
+                    </ul>
+                </div>
+                <!-- /btn-group -->
+            </div>
+            <!-- /input-group -->
+        </div>
+        <div class="col-md-4 login">
+            <ul>
+                <a href="login.html">
+                    <li>登录</li>
+                </a>
+                <a href="register.html">
+                    <li>注册&nbsp<span class="iconfont icon-zhuce"></span></li>
+                </a>
+                <a href="myhomepage.html">
+                    <li>个人中心&nbsp<span class="iconfont icon-gerenzhongxin"></span></li>
+                </a>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--轮播图开始-->
+<div class="banner">
+
+    <div class="bannerbox">
+        <ul>
+            <li class="img-item"><img src="images/slider1.png" alt=""/></li>
+            <li class="img-item"><img src="images/slider2.png" alt=""/></li>
+            <li class="img-item"><img src="images/slider3.png" alt=""/></li>
+            <li class="img-item"><img src="images/slider4.png" alt=""/></li>
+        </ul>
+    </div>
+
+    <div class="control">
+        <span class="glyphicon glyphicon-chevron-right right"></span>
+        <span class="glyphicon glyphicon-chevron-left left"></span>
+    </div>
+
+    <div class="bannerbtn">
+        <ul class="num">
+            <!--<li class="btnon btn-item"></li>-->
+            <!--<li class="btn-item"></li>-->
+            <!--<li class="btn-item"></li>-->
+        </ul>
+
+    </div>
+
+</div>
+<!--左边专栏开始-->
+<div class="container filmnav">
+    <div class="row">
+        <div class="col-md-12 navbar ">
+            <ul>
+                <a href="">
+                    <li style="border-bottom: 1px solid #E47833;color: #E47833">
+                        <apan class="iconfont icon-Wonderfulrecommenda"></apan>
+                        &nbsp精彩推荐
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <apan class="iconfont icon-dianying"></apan>
+                        &nbsp电影
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <apan class="iconfont icon-taiwangdahui-zongyibangdianjitai"></apan>
+                        &nbsp综艺
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <apan class="iconfont icon-zhuanlan"></apan>
+                        &nbsp专栏
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <apan class="iconfont icon-tv"></apan>
+                        &nbsp电视剧
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <apan class="iconfont icon-luntan"></apan>
+                        &nbsp论坛
+                    </li>
+                </a>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<!--右边专栏开始-->
+<div class="container filmcontent">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="filmbox1">
+                <div class="filmpic">
+                    <img src="images/filmbox1.png" alt=""/>
+
+                    <div class="filmmask">
+                        <p class="page-header">
+                            电影-专栏&nbsp&nbsp<i>冷门电影大盘点</i>
+                        </p>
+                        <ul>
+                            <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp101</li>
+                            <li><span class="iconfont icon-shoucang"></span>&nbsp99</li>
+                            <li><span class="iconfont icon-pinglun"></span>&nbsp43</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="filmbox2">
+                <div class="filmpic2">
+                    <img src="images/filmbox2.png" alt=""/>
+
+                    <div class="filmmask">
+                        <p class="page-header">
+                            电影-专栏&nbsp&nbsp<i>适合一个人看的电影盘点</i>
+                        </p>
+                        <ul>
+                            <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp101</li>
+                            <li><span class="iconfont icon-shoucang"></span>&nbsp99</li>
+                            <li><span class="iconfont icon-pinglun"></span>&nbsp43</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--热门电影标题结束-->
+<div class="filmtitle container">
+    <p><span class="iconfont icon-dianzan2"></span>&nbsp热门榜&nbsp/ <i>电影</i></p>
+    <h5><span class="iconfont icon-chakangengduo1"></span></h5>
+</div>
+<!--热门电影内容开始-->
+<div class="container dianshiju">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="dianshijubox">
+                <img src="images/poster.jpg" class="img-responsive" alt=""/>
+
+                <div class="decript">
+                    <p>勇敢者游戏</p>
+                    <ul>
+                        <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp311</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="dianshijubox">
+                <img src="images/poster1.jpg" class="img-responsive" alt=""/>
+
+                <div class="decript">
+                    <p>黑豹</p>
+                    <ul>
+                        <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp219</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="dianshijubox">
+                <img src="images/poster2.jpg" class="img-responsive" alt=""/>
+
+                <div class="decript">
+                    <p>全球风暴</p>
+                    <ul>
+                        <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp196</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="dianshijubox">
+                <img src="images/poster3.jpg" class="img-responsive" alt=""/>
+
+                <div class="decript">
+                    <p>猩球3：黎明之战</p>
+                    <ul>
+                        <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp156</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="dianshijubox">
+                <img src="images/poster4.jpg" class="img-responsive" alt=""/>
+
+                <div class="decript">
+                    <p>神偷奶爸3</p>
+                    <ul>
+                        <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp127</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="dianshijubox">
+                <img src="images/poster5.jpg" class="img-responsive" alt=""/>
+
+                <div class="decript">
+                    <p>环太平洋</p>
+                    <ul>
+                        <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp101</li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!--热门电视剧标题开始-->
+<div class="filmtitle container">
+    <p><span class="iconfont icon-dianzan2"></span>&nbsp热门榜&nbsp/ <i>电视剧</i></p>
+    <h5><span class="iconfont icon-chakangengduo1"></span></h5>
+</div>
+<!--热门电视剧内容开始-->
+<div class="container dianshiju">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="dianshijubox">
+                <img src="images/poster11.jpg" class="img-responsive" alt=""/>
+
+                <div class="decript">
+                    <p>绿箭侠 第三季</p>
+                    <ul>
+                        <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp201</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="dianshijubox">
+                <img src="images/poster12.jpg" class="img-responsive" alt=""/>
+
+                <div class="decript">
+                    <p>基本演绎法</p>
+                    <ul>
+                        <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp199</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="dianshijubox">
+                <img src="images/poster13.jpg" class="img-responsive" alt=""/>
+
+                <div class="decript">
+                    <p>西部世界</p>
+                    <ul>
+                        <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp146</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="dianshijubox">
+                <img src="images/poster14.jpg" class="img-responsive" alt=""/>
+
+                <div class="decript">
+                    <p>黑帆</p>
+                    <ul>
+                        <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp127</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="dianshijubox">
+                <img src="images/poster15.jpg" class="img-responsive" alt=""/>
+
+                <div class="decript">
+                    <p>超感猎杀</p>
+                    <ul>
+                        <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp85</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="dianshijubox">
+                <img src="images/poster16.jpg" class="img-responsive" alt=""/>
+
+                <div class="decript">
+                    <p>傲慢与偏见</p>
+                    <ul>
+                        <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp41</li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!--热门电视剧结束-->
+<!--热门综艺开始-->
+<div class="filmtitle container">
+    <p><span class="iconfont icon-dianzan2"></span>&nbsp热门榜&nbsp/ <i>综艺</i></p>
+    <h5><span class="iconfont icon-chakangengduo1"></span></h5>
+</div>
+<!--热门电视剧内容开始-->
+<div class="container dianshiju">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="dianshijubox">
+                <img src="images/zongyi1.jpg" class="img-responsive" alt=""/>
+
+                <div class="decript">
+                    <p>极限挑战</p>
+                    <ul>
+                        <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp694</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="dianshijubox">
+                <img src="images/zongyi2jpg.jpg" class="img-responsive" alt=""/>
+
+                <div class="decript">
+                    <p>向往的生活</p>
+                    <ul>
+                        <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp612</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="dianshijubox">
+                <img src="images/poster13.jpg" class="img-responsive" alt=""/>
+
+                <div class="decript">
+                    <p>西部世界</p>
+                    <ul>
+                        <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp146</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="dianshijubox">
+                <img src="images/poster14.jpg" class="img-responsive" alt=""/>
+
+                <div class="decript">
+                    <p>黑帆</p>
+                    <ul>
+                        <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp127</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="dianshijubox">
+                <img src="images/poster15.jpg" class="img-responsive" alt=""/>
+
+                <div class="decript">
+                    <p>超感猎杀</p>
+                    <ul>
+                        <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp85</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="dianshijubox">
+                <img src="images/poster16.jpg" class="img-responsive" alt=""/>
+
+                <div class="decript">
+                    <p>傲慢与偏见</p>
+                    <ul>
+                        <li class="dianzan"><span class="iconfont icon-dianzan2"></span>&nbsp41</li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!--下载排行榜-->
+<div class="container tableTab">
+    <div class="Tab">
+        <div class="tabdecript">
+            <p> <span class="glyphicon glyphicon-circle-arrow-down"></span>&nbsp下载排行</p>
+        </div>
+        <div class="tabul">
+            <ul>
+                <li class="tablion" style="color: white">电影 <span class="glyphicon glyphicon-triangle-bottom"></span></li>
+                <li>电视剧<span class="glyphicon glyphicon-triangle-bottom"></span></li>
+                <li>综艺<span class="glyphicon glyphicon-triangle-bottom"></span></li>
+
+            </ul>
+        </div>
+        <div class="tabcontent">
+            <div class="tabfilm tabbox">
+
+                <div class="row">
+                    <div class="col-lg-2">
+                        <h4>科幻&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>惊悚&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>喜剧&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>灾难&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>爱情&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>剧情&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-2">
+                        <h4>冒险&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>犯罪&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>动作&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>动画&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+                        <p>查看更多 <span class="glyphicon glyphicon-circle-arrow-right"></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="tabdianshiju tabbox">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <h4>家庭&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>古装&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>犯罪&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>战争&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>网剧&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>欧美&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-2">
+                        <h4>日韩&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+                        <p>查看更多 <span class="glyphicon glyphicon-circle-arrow-right"></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="tabzongyi tabbox">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <h4>卫视综艺&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>央视综艺&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>网络综艺&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>日韩&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>欧美&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>说唱&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-2">
+                        <h4>选秀&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+
+
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+                        <p>查看更多 <span class="glyphicon glyphicon-circle-arrow-right"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--收藏排行榜-->
+<div class="container tableTab1">
+    <div class="Tab1">
+        <div class="tabdecript1">
+            <p> <span class="glyphicon glyphicon-heart"></span>&nbsp收藏榜</p>
+        </div>
+        <div class="tabul1">
+            <ul>
+                <li class="tablion1" style="color: white">电影 <span class="glyphicon glyphicon-triangle-bottom"></span></li>
+                <li>电视剧<span class="glyphicon glyphicon-triangle-bottom"></span></li>
+                <li>综艺<span class="glyphicon glyphicon-triangle-bottom"></span></li>
+
+            </ul>
+        </div>
+        <div class="tabcontent1">
+            <div class="tabfilm1 tabbox1">
+
+                <div class="row">
+                    <div class="col-lg-2">
+                        <h4>科幻&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>惊悚&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>喜剧&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>灾难&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>爱情&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>剧情&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-2">
+                        <h4>冒险&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>犯罪&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>动作&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>动画&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+                        <p>查看更多 <span class="glyphicon glyphicon-circle-arrow-right"></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="tabdianshiju1 tabbox1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <h4>家庭&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>古装&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>犯罪&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>战争&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>网剧&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>欧美&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-2">
+                        <h4>日韩&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+                        <p>查看更多 <span class="glyphicon glyphicon-circle-arrow-right"></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="tabzongyi1 tabbox1">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <h4>卫视综艺&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>央视综艺&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>网络综艺&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>日韩&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>欧美&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4>说唱&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-2">
+                        <h4>选秀&nbsp <span class="glyphicon glyphicon-menu-right"></span></h4>
+                        <ul>
+                            <a href=""><li>侏罗纪世界2</li></a>
+                            <a href=""><li>头号玩家</li></a>
+                            <a href=""><li>复仇者联盟</li></a>
+                            <a href=""><li>变形金刚</li></a>
+                            <a href=""><li>星际穿越</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+
+
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+                        <p>查看更多 <span class="glyphicon glyphicon-circle-arrow-right"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部开始-->
+<div class="footer container-fluid">
+    <div class="container">
+        <row>
+            <div class="col-md-3">
+                <div class="footerbox">
+                    <h3><span class="iconfont icon-bangzhu"></span>&nbsp网站帮助</h3>
+                    <ul>
+                        <a href="">
+                            <li>如何下载电影</li>
+                        </a>
+                        <a href="">
+                            <li>如何获取字幕</li>
+                        </a>
+                        <a href="">
+                            <li>如何捐助我们</li>
+                        </a>
+                        <a href="">
+                            <li>电影资源简介</li>
+                        </a>
+                        <a href="">
+                            <li>关于有看电影</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="footerbox"><h3><span class="iconfont icon-zerenshenming"></span>&nbsp版权申明</h3>
+
+                    <p>本站基于互联网自由分享， 所有信息均收集自互联网，没有提供影片资源存储，也未参与录制、上传， 本站服务器未保存任何影视等资源或文件， 且本站并不属于磁力链接的提供者、制作者、所有者，
+                        因此本站不承担任何法律责任！</p>
+
+                    <p>如有侵权，请发送邮件至 <i>aiergou@live.com</i> ,经确认后，我们定当全力配合删除侵权内容。</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footerbox guanzhubox">
+                    <h3><span class="iconfont icon-guanzhu"></span>&nbsp关注我们</h3>
+
+                    <div class="guanzhu">
+                        <span class="iconfont icon-weibo2"></span>
+                        <span class="iconfont icon-weixin"></span>
+                        <span class="iconfont icon-QQ"></span>
+                        <span class="iconfont icon-youxiang"></span>
+                    </div>
+                    <div class="erweima">
+                        <img src="images/weixin.jpg" class="img-responsive" alt=""/>
+                    </div>
+                </div>
+            </div>
+
+        </row>
+    </div>
+</div>
+<div class="footerbottom container-fluid">
+    <p>by @快乐的隔壁老王·2018年7月</p>
+</div>
+<!--底部结束-->
+</body>
+<script src="bootstrap-3.3.7-dist/js/common.js"></script>
+</html>
