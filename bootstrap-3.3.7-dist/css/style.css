@@ -1,0 +1,1179 @@
+ul li {
+    list-style: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F0F0F0;
+
+}
+/*tab*/
+.tabul li{
+    float: left;
+    width: 100px;
+    height:50px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    line-height: 50px;
+    position: relative;
+}
+.tabul ul li:nth-child(1) span{
+    position: absolute;
+    top: 45px;
+    left: 42px;
+    font-size: 20px;
+    color:  #E47833;
+}
+
+.tabul ul li:nth-child(2) span{
+    position: absolute;
+    top: 45px;
+    left: 42px;
+    font-size: 20px;
+    color:  #E47833;
+    display: none;
+}
+
+.tabul ul li:nth-child(3) span{
+    position: absolute;
+    top: 45px;
+    left: 42px;
+    font-size: 20px;
+    color:  #E47833;
+    display: none;
+}
+.tabul{
+    width: 100%;
+    height: 50px;
+    background-color: #F2F3F5;
+}
+
+/*.tabul ul li:hover{*/
+/*background-color:#28B7A3;*/
+/*color: white;*/
+/*}*/
+
+.tablion{
+    background-color:#E47833;
+    color:#ffffff;!important;
+
+}
+.tabcontent .tabfilm{
+
+    width: 100%;
+
+    background-color:#fff;
+
+
+
+}
+
+.tabcontent .tabdianshiju{
+    width: 100%;
+
+
+
+    background-color:#fff;
+    display: none;
+}
+
+.tabcontent .tabzongyi{
+    width: 100%;
+
+    display: none;
+    background-color: #fff;
+}
+
+.tabcurrent{
+    display: block;
+}
+body{
+    background-color: #F0F0F0;
+
+}
+.tableTab{
+    margin-top: 35px;
+    width: 1270px;
+    background-color: white;
+}
+.Tab{
+    margin: 20px;
+}
+.tabdecript{
+    margin-top: 30px;
+    margin-bottom:12px;
+
+}
+
+.tabdecript p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.tabbox h4{
+    font-size: 14px;
+    color: #E47833;
+}
+.tabbox{
+    margin-top: 15px;
+}
+.tabbox p{
+    font-size: 12px;
+    color: gray;
+    margin-top: 130px;
+}
+/*头部区域开始*/
+.header {
+    background-color: #221F42;
+    height: 150px;
+    padding-top: 50px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.search {
+
+    height: 50px;
+
+}
+
+.login {
+
+    height: 50px;
+
+}
+
+.login ul li {
+    float: left;
+    line-height: 50px;
+    list-style: none;
+    margin-left: 50px;
+
+}
+.login ul:last-child{
+    margin-left: 25px;
+}
+
+.login ul a {
+    color: white;
+}
+
+.login ul a:hover {
+    color: #F58E00;
+}
+
+.search {
+    padding-top: 8px;
+}
+/*头部区域结束*/
+/*tab1*/
+.tabul1 li{
+    float: left;
+    width: 100px;
+    height:50px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    line-height: 50px;
+    position: relative;
+}
+.tabul1 ul li:nth-child(1) span{
+    position: absolute;
+    top: 45px;
+    left: 42px;
+    font-size: 20px;
+    color:  #E47833;
+}
+
+.tabul1 ul li:nth-child(2) span{
+    position: absolute;
+    top: 45px;
+    left: 42px;
+    font-size: 20px;
+    color:  #E47833;
+    display: none;
+}
+
+.tabul1 ul li:nth-child(3) span{
+    position: absolute;
+    top: 45px;
+    left: 42px;
+    font-size: 20px;
+    color:  #E47833;
+    display: none;
+}
+.tabul1{
+    width: 100%;
+    height: 50px;
+    background-color: #F2F3F5;
+}
+
+/*.tabul ul li:hover{*/
+/*background-color:#28B7A3;*/
+/*color: white;*/
+/*}*/
+
+.tablion1{
+    background-color:#E47833;
+    color:#ffffff;!important;
+
+}
+.tabcontent1 .tabfilm1{
+
+    width: 100%;
+
+    background-color:#fff;
+
+
+
+}
+
+.tabcontent1 .tabdianshiju1{
+    width: 100%;
+
+
+
+    background-color:#fff;
+    display: none;
+}
+
+.tabcontent1 .tabzongyi1{
+    width: 100%;
+
+    display: none;
+    background-color: #fff;
+}
+
+.tabcurrent1{
+    display: block;
+}
+body{
+    background-color: #F0F0F0;
+
+}
+.tableTab1{
+    margin-top: 35px;
+    width: 1270px;
+    background-color: white;
+}
+.Tab1{
+    margin: 20px;
+}
+.tabdecript1{
+    margin-top: 30px;
+    margin-bottom:12px;
+
+}
+
+.tabdecript1 p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.tabbox1 h4{
+    font-size: 14px;
+    color: #E47833;
+}
+.tabbox1{
+    margin-top: 15px;
+}
+.tabbox1 p{
+    font-size: 12px;
+    color: gray;
+    margin-top: 130px;
+}
+/*banner开始*/
+.banner {
+    width:100%;
+    position:relative;
+    overflow:hidden;
+    height:400px;
+}
+.bannerbox {
+    width:1920px; /*图片宽度*/
+    position:absolute;
+    left:50%;
+    margin-left:-960px; /*图片宽度的一半*/
+}
+
+.bannerbox ul{
+    width: 9999px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bannerbox ul li{
+    float: left;
+}
+
+
+.control span{
+    width: 50px;
+    height: 50px;
+    background-color:rgba(0,0,0,0.5);
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    display: none;
+
+}
+.control span:first-child{
+    position: absolute;
+    top: 175px;
+    right: 0;
+}
+.control span:last-child{
+    position: absolute;
+    top: 175px;
+    left: 0;
+}
+.bannerbtn{
+    width: 100px;
+    margin-left: -18px;
+    position: absolute;
+    top: 370px;
+    left: 50%;
+
+}
+.bannerbtn .num{
+    width: 100px;
+}
+
+.bannerbtn .num li{
+    width: 12px;
+    height: 12px;
+    border: 1px solid white;
+    float: left;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.btnon{
+    background-color: white;
+}
+/*banner结束*/
+
+/*导航栏开始*/
+.filmnav {
+    width: 1300px;
+
+    margin-top: 30px;
+}
+
+.navbar {
+
+}
+
+.navbar ul li {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    width: 130px;
+    text-align: center;
+    border-bottom: 1px solid #CCC;
+    font-size: 15px;
+}
+
+.navbar ul li {
+    color: #666666;
+}
+
+.navbar ul {
+    width: 100%;
+    border-bottom: 1px solid #CCC;
+    height: 50px;
+}
+
+.navbar ul li:hover {
+    border-bottom: 1px solid #E47833;
+    color: #E47833;
+
+}
+
+.navbar ul .navbaron {
+    border-bottom: 1px solid #E47833;
+    color: #E47833
+}
+
+/*导航结束*/
+/*专栏开始*/
+
+.filmcontent {
+    width: 1300px;
+    overflow: hidden;
+}
+
+.filmbox1 {
+
+    height: 280px;
+    overflow: hidden;
+}
+
+.filmpic {
+
+    height: 280px;
+    position: relative;
+}
+
+.filmbox1 .filmmask {
+    height: 80px;
+    background-color: white;
+    position: absolute;
+
+    top: 200px;
+    display: none;
+
+}
+
+.filmbox1 .filmmask ul li {
+    float: left;
+    width: 75px;
+
+    text-align: center;
+    font-size: 15px;
+    height: 30px;
+    margin-left: 5px;
+    line-height: 30px;
+    color: #DDDDDD;
+    cursor: pointer;
+}
+
+.filmbox1 .filmmask ul {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+.filmmask ul li:hover {
+    color: skyblue;
+}
+
+.filmbox1 .filmmask p {
+    float: left;
+    margin-top: 5px;
+    width: 840px;
+    height: 30px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu;
+    padding-left: 15px;
+
+    line-height: 30px;
+    letter-spacing: 3px;
+}
+
+.filmbox1 .filmmask p i {
+    font-size: 14px;
+}
+
+.filmbox2 {
+
+    background-color: #fff;
+    height: 280px;
+    width: 410px;
+    overflow: hidden;
+
+}
+
+.filmpic2 {
+    width: 410px;
+    position: relative;
+
+}
+
+.filmbox2 .filmmask {
+    width: 410px;
+    height: 80px;
+    background-color: #fff;
+    position: absolute;
+    top: 200px;
+    display: none;
+
+}
+
+.filmbox2 ul li {
+    float: left;
+    width: 50px;
+    text-align: center;
+    font-size: 15px;
+    height: 30px;
+    margin-left: 5px;
+    line-height: 30px;
+    color: #DDDDDD;
+    cursor: pointer;
+
+}
+
+.filmbox2 ul {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+.filmbox2 p {
+    float: left;
+    margin-top: 5px;
+    width: 890px;
+    height: 30px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu;
+    padding-left: 15px;
+    margin-left: 10px;
+    line-height: 30px;
+    letter-spacing: 3px;
+}
+
+.filmbox2 p i {
+    font-size: 14px;
+}
+/*专栏结束*/
+.dianshiju {
+
+    width: 1300px;
+    margin-top: 25px;
+}
+
+.dianshijubox {
+    background-color: #fff;
+    height: 285px;
+    overflow: hidden;
+    /*border: 3px solid #E47833;*/
+    position: relative;
+    z-index: -1;
+
+}
+
+.dianshijuboxon {
+    box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.3);
+}
+
+.decript {
+    height: 34px;
+    width: 195px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.decript p {
+    font-size: 14px;
+    color: black;
+    line-height: 34px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+
+}
+
+.decript ul {
+    position: absolute;
+    top: 0;
+    right:15px;
+}
+
+.decript ul li {
+    float: left;
+    font-size: 6px;
+    line-height: 34px;
+    color: red;
+
+}
+
+.filmtitle {
+    width: 1270px;
+    height: 30px;
+
+    margin-top: 30px;
+    border-bottom: 1px solid #CCCCCC;
+    position: relative;
+}
+
+.filmtitle p {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.filmtitle p i {
+    font-size: 12px;
+}
+
+.filmtitle h5 {
+    position: absolute;
+    right: 2px;
+    width: 100px;
+    top: -2px;
+
+}
+
+.filmtitle h5 span {
+    font-size: 14px;
+    cursor: pointer;
+}
+/*底部开始*/
+.footer {
+    height: 320px;
+    background-color: #221F42;
+    margin-top: 45px;
+}
+
+.footerbottom {
+    height: 90px;
+    background-color: #1B1935;
+    position: relative;
+}
+
+.footer .footerbox {
+    height: 320px;
+}
+
+.footer h3 {
+    margin-top: 70px;
+    color: #908FA0;
+    font-size: 16px;
+}
+
+.footer ul li {
+    width: 150px;
+    height: 24px;
+    margin-top: 5px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #908FA0;
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.footer ul li:hover {
+    color: white;
+}
+
+.footer ul a {
+    text-decoration: none;
+}
+
+.footer p {
+    color: #908FA0;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.guanzhu span:first-child {
+
+    margin-right: 20px;
+}
+
+.guanzhu span:last-child {
+    margin-left: 20px;
+}
+
+.guanzhu span:nth-child(3) {
+    margin-left: 20px;
+}
+
+.guanzhu span {
+    color: #908FA0;
+    font-size: 28px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.guanzhubox {
+    margin-left: 88px;
+    position: relative;
+}
+
+.guanzhu span:hover {
+    color: white;
+}
+
+.guanzhubox .erweima {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 15px;
+    top: 75px;
+    display: none;
+}
+
+.footerbottom p {
+    width: 300px;
+    height: 90px;
+    line-height: 90px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+
+}
+/*底部结束*/
+
+/*login 页面css*/
+
+
+.loginbox{
+    height:280px;
+    background-color: rgba(255,255,255,0.2);
+    margin-top: 260px;
+
+    border-radius: 3px;
+    position: relative;
+}
+
+.loginpic{
+    position: absolute;
+    top: -115px;
+    left: 115px;
+
+}
+input[name="color"]::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: white;
+
+}
+
+
+input[name="color"]:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white;
+
+
+}
+input[name="color"]::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;
+
+
+}
+
+
+input[name="color"]:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: white;
+
+
+}
+
+.backindex p{
+    color: white;
+    margin-top: 10px;
+}
+.loginpic p{
+    color: white;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    margin-left: -12px;
+    font-size: 15px;
+}
+input:focus{color:white}
+.loginrow{
+    font-size: 20px;
+    color:rgba(255,255,255,0.2);
+    position: absolute;
+    top: -17px;
+    left: 180px;
+}
+.loginbox input{
+    width: 100%;
+    outline-style: none;
+    background-color:rgba(255,255,255,0.4) ;
+    border: none;
+    border-radius: 3px;
+    height: 35px;
+    padding-left: 30px;
+
+}
+
+.login input:first-child{
+    margin-bottom: 25px;
+}
+
+.login input:last-child {
+    margin-top: 25px;
+    background-color: #2C8DFB;
+    color: white;
+    font-weight: bold;
+    padding-left: 0;
+}
+.loginbox h4{
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+
+}
+
+input::-webkit-input-placeholder{
+    color:white;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:white;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:white;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+    color:white;
+}
+.usericon span{
+    color: white;
+    position: absolute;
+    top: 85px;
+    left: 23px;
+
+}
+
+.pwdicon span{
+    color: white;
+    position: absolute;
+    top: 145px;
+    left: 23px;
+}
+
+/*login css结束*/
+/*myhomepage 开始*/
+.ziliao {
+    margin-top: 30px;
+    height: 300px;
+    position: relative;
+}
+.touxiang{
+    width:100px;
+    height: 100px;
+
+    position: absolute;
+    top: 20px;
+    left: 540px;
+    border-radius: 50%;
+    border: 2px solid rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.jianjie h3{
+    position: absolute;
+    top: 125px;
+    left: 515px;
+    color: white;
+}
+.mypagenav{
+    height: 50px;
+    background-color: #fff;
+    position: relative;
+}
+
+.mypagenav ul li{
+    float: left;
+    width:80px;
+    margin-left: 30px;
+    line-height: 50px;
+    text-align: center;
+
+}
+.mypagenav ul{
+    position: absolute;
+    left: 420px;
+}
+.mypagenavon{
+    border-bottom: 2px solid #E47833;
+}
+.mypagenav ul li:hover{
+    border-bottom: 2px solid #E47833;
+}
+.pagezhuye{
+    margin-top: 30px;
+}
+.fansbox{
+    height: 70px;
+    background-color: #fff;
+    margin-left: -15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fansbox ul li{
+    float: left;
+    width: 123px;
+
+
+    text-align: center;
+    height: 50px;
+    border-right: 2px solid rgba(0,0,0,0.1) ;
+}
+
+.fansbox ul li:last-child{
+    border-right: none;
+}
+.fansbox ul li span{
+    font-size: 22px;
+
+    font-weight: bold;
+}
+.fansbox ul li span:hover{
+    color:  #E47833;
+}
+.mypageself{
+    margin-top: 15px;
+    background-color: #fff;
+    margin-left: -15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.mypageself ul li{
+    width: 100%;
+    border-bottom: 1px solid rgba(10,10,10,0.2);
+    height: 50px;
+    line-height: 50px;
+}
+.mypageself h5{
+    width: 100%;
+    height: 30px;
+}
+.pagedongtaibox{
+    background-color: #fff;
+
+    margin-right: -15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    position: relative;
+
+}
+.pagedongtaibox h5{
+    width: 100%;
+    border-bottom: 1px dashed rgba(0,0,0,0.2);
+    height: 30px;
+    line-height: 30px;
+    font-size: 17px;
+
+}
+.pagedongtaibox h6{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.pagedongtaibox h7{
+    color: #ccc;
+    font-size: 12px;
+
+}
+.pagedongtaibox p {
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-top: 12px;
+
+}
+.nextpage{
+    margin-top: 50px;
+}
+.mypagenav h3{
+    font-size: 14px;
+    float: right;
+}
+.dianzanmiaoshu span{
+    color: red;
+}
+.pagedongtaibox h4 {
+    font-size: 13px;
+    color: #aaa;
+    position: absolute;
+    right: 20px;
+    top: 82px;
+}
+/*myhomepage 结束*/
+/*filmpage 开始*/
+/*类型开始*/
+.typeul li{
+    float: left;
+    width: 80px;
+    margin-left: 10px;
+    border: 1px dotted #ccc;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: sans-serif;
+
+
+}
+.leixing p{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.leixing{
+    width: 100%;
+    height: 40px;
+
+    line-height: 40px;
+    position: relative;
+}
+.typeul{
+    position: absolute;
+    top: 5px;
+    left:60px;
+
+    text-align: center;
+}
+.typeul li:hover{
+    background-color:#ccc;
+    color: white;
+}
+/*年份开始*/
+.yearul li{
+    float: left;
+    width: 80px;
+    margin-left: 10px;
+    border: 1px dotted #ccc;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: sans-serif;
+
+
+}
+.nianfen p{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.nianfen{
+    width: 100%;
+    height: 40px;
+
+    line-height: 40px;
+    position: relative;
+    margin-top: 10px;
+}
+.yearul{
+    position: absolute;
+    top: 5px;
+    left:60px;
+
+    text-align: center;
+}
+.yearul li:hover{
+    background-color:#ccc;
+    color: white;
+}
+/*国别*/
+.countryul li{
+    float: left;
+    width: 80px;
+    margin-left: 10px;
+    border: 1px dotted #ccc;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: sans-serif;
+
+
+}
+.guobie p{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.guobie{
+    width: 100%;
+    height: 40px;
+
+    line-height: 40px;
+    position: relative;
+    margin-top: 10px;
+}
+.countryul{
+    position: absolute;
+    top: 5px;
+    left:60px;
+
+    text-align: center;
+}
+.countryul li:hover{
+    background-color:#ccc;
+    color: white;
+}
+
+selecton{
+    background-color:#ccc;
+    color: white;
+}
+/*已选*/
+.yixuanul li{
+    float: left;
+    width: 80px;
+    margin-left: 10px;
+    border: 1px dotted #ccc;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: #ccc;
+    color: white;
+
+
+}
+.yixuan p{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 40px;
+}
+.yixuan{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px dotted #aaa;
+    line-height: 40px;
+    position: relative;
+    margin-top: 10px;
+
+}
+.yixuanul{
+    position: absolute;
+    top: 5px;
+    left:60px;
+
+    text-align: center;
+}
+.filmpage h2{
+    font-size: 15px;
+}
+.filmpage{
+
+    background-color: #fff;
+}
+.dianyingbox{
+    margin-top: 30px;
+}
+.dianyingbox p{
+    margin-top: 10px;
+}
+.sousuo{
+    margin-top: 50px;
+}
+.sousuo img{
+    margin-bottom: 10px;
+}
+.sousuo h3{
+    margin-bottom: 30px;
+    font-size: 17px;
+    margin-top: 15px;
+}
+.sousuobox{
+    width: 500px;
+    margin: 0 auto;
+}
+.col-md-2{
+    transition: all 0.2s;
+}
+.col-md-2:hover{
+
+    transform: scale(1.03);
+}
